@@ -1,0 +1,260 @@
+body {
+    background: url("images.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+}
+   
+
+
+    #Nav-bar {
+        background-color: rgba(4, 4, 36, 0.8);
+        width:auto;
+        height:auto;
+        margin: 5px;
+        padding: 10px;
+        text-align: right;
+        border-radius:5px;
+        }
+        
+
+        #logo, #sub-title {
+            border: none;
+            padding:5px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium';
+            color: white;
+            margin-top:10px;
+            margin-left: 10px;
+            margin-right: 88.5%;
+            text-transform:capitalize;
+        
+            }
+        
+            #sub-title {
+                border: none;
+                padding:none;
+                font-size: 1em;
+                font-family: 'Calibri';
+                font-style: italic;
+                color: white;
+                margin-top:-20px;
+                margin-right: 85%;
+                text-transform:capitalize;
+                }
+
+ul li {
+    color: white;
+    display:inline-block;
+    margin-top: 50px;
+    margin-left: 30px; 
+    padding: none;
+
+   
+}
+
+ul li a {
+    color:rgb(243, 243, 245);
+    font-family:'Franklin Gothic Medium';
+    Text-decoration: none;
+    font-weight: bold;
+}
+
+#Procedures {
+     font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    color: rgb(4, 4, 36);
+    text-align: center;
+    background: rgb(95, 204, 204,0.7);
+    size: cover;
+    border-radius: 4px; 
+    margin-top:10px;
+    padding: auto;
+
+}
+#Procedures ul li {
+    color: rgb(4, 4, 36);
+}
+.form {
+    margin-right: 100px;
+    padding: auto;
+    color:  rgb(4, 4, 36);
+    font-family: 'arial narrow';
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.Reset {
+    height: 40px;
+    width: 100px;
+    margin: 50px;
+    padding: auto;
+    background-color: rgb(25, 153, 153);
+    border-radius: 5px;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    margin-left: 100px;
+    padding: auto;
+    background-color: rgb(25, 153, 153);
+    border-radius: 5px;
+      margin-top: -150px;
+}
+footer {
+                        width: 100%;
+                        background: rgba(4, 4, 36, 0.8);
+                        color:white;
+                        bottom: 0;
+                        padding:100px 0 30px;
+                        border-radius: 10px;
+                        line-height: 20px; 
+                        font-family: 'Franklin Gothic Medium';
+                        font-weight: bolder;
+                        font-size: 15px;
+                        display: flex;
+                        text-align: justify;
+                    
+                    }
+                    .row{
+                        width:85%;
+                        margin:auto;
+                        display:flex;
+                        flex-wrap:wrap;
+                        align-items: flex-start;
+                        justify-content:space-between;
+                                                }
+                    .col {
+                        flex-basis:15%;
+                        padding:10px;
+                                        }
+                    .col .intro {
+                        color:white;
+                        font-size: 15px;
+                        text-align: justify;
+                        text-transform:capitalize;
+                    }
+                    .col .office {
+                        font-size: 20px;
+                        color: aqua;
+                    }
+                    .col p {
+                        color: white;
+                        font-size: 15px;
+                        text-transform:capitalize;
+                        text-align:justify;
+                        margin: 0px 50px 0px 0px;
+                        width: 200px;
+                        
+    
+                    }
+                  
+                    .col .email-id                    {
+                        width: fit-content;
+                        margin: 30px 0;
+                        color: aqua;
+                }
+          .links {
+            list-style: none;
+            margin: 10px 40px 0px 10px
+    
+    
+                                          }     
+    
+          .links a{
+            width: auto;
+            text-decoration: none;
+            margin: 10px 70px 0px 0px;
+            display: block;
+            padding: 0px;
+            color: white;
+            font-size: 15px;
+    
+          } 
+    
+          .links a:hover{
+            color:aqua;
+                  }
+          .Newsletter {
+            width:100%;
+            display: flex;
+            align-content: space-between;
+            justify-content:center;
+            border-bottom: 2px solid white;
+            margin-bottom: 50px;
+            background: white transparent;
+            text-decoration:none;
+          }  
+          
+          .Newsletter input {
+            background: transparent;
+            width: 300px;
+            outline: none;
+            font-style: italic;
+            font-family: monospace;
+            color: white;
+    
+          }  
+    
+          
+          .Newsletter button {
+            background: aqua;
+            width: 100px;
+            height: 30px;
+            margin-left:-50px;
+            border-radius: 40%;
+            cursor: pointer;
+          }
+          .Newsletter button:hover {
+            background: white;
+            transform: scale(1.5);
+            transition: .4s;
+    
+                          }
+            
+         .Newsletter button a {
+                            font-family: 'Franklin Gothic Medium';
+                            color: rgb(4, 4, 36);
+                            text-decoration: none;
+                          }
+        .social-icons  {
+    width: 40px;
+    height:40px;
+    border-radius:40%;
+    text-align: center;
+    display:flex;
+    margin-right: 20px;
+        }
+    
+        .social-icons .fab {
+            width: 40px;
+            height:40px;
+            font-size:20px;
+            color:rgb(9, 9, 43);
+            margin-right: 50px;
+            background-color: white;
+            border-radius: 50%;
+            text-align:center;
+            line-height: 40px;
+    
+    
+    
+        }
+        .social-icons .fab:hover {
+            color:aqua;
+            transform: scale(1.5);
+            transition: .4s;
+        }
+    
+    
+                    @keyframes aqua-to-blue {
+                        0% {background:  rgba(146, 238, 238, 0.5);
+                             transform:translate(0px, 0px);}
+                        
+                        50% {background:  rgb(20, 128, 128);
+                                transform:translate(20px, 20px);}
+                        
+                        100% {background: aqua ;
+                                    transform:translate(40px, 40px);}
+                             
+                    }

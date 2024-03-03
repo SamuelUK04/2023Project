@@ -1,0 +1,442 @@
+body {
+    background: url("images.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+   
+
+    #logo, #sub-title {
+    border: none;
+    padding:none;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    margin-top:none;
+    margin-right: 85%;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    }
+    #sub-title {
+        border: none;
+        padding:none;
+        font-size: 1em;
+        font-family: 'Calibri';
+        font-style: italic;
+        color: white;
+        margin-top:-30px;
+        margin-right: 85%;
+        }
+    #Nav-bar {
+        background-color: rgba(4, 4, 36, 0.8);
+        width:auto;
+        height:auto;
+        margin: 5px;
+        padding: 10px;
+        text-align:right;
+        border-radius:2px;
+        }
+        
+ul li {
+    color: white;
+    display:inline-block;
+    margin-top: 50px;
+    margin-left: 30px; 
+    padding: none;
+
+   
+}
+
+ul li a {
+    color:rgb(243, 243, 245);
+    font-family:'Georgia';
+    Text-decoration: none;
+}
+p { 
+    font-size: 10px;
+    font-family: 'Arial Narrow Bold';
+    text-transform: uppercase;
+    margin-left: 25%;
+    color:rgb(4, 4, 36);
+    text-align: center;
+}
+
+.wrapper {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 1 rem;
+    margin-bottom: 5%; 
+   padding: auto;
+    display: flex;
+    flex-direction: column;
+   background-color: rgba(146, 238, 238, 0.5);
+    border-radius: 10px;
+    animation: aqua-to-blue 4s ease-in 1s 1 normal;
+}
+
+.Let {
+    margin: 10px;
+    padding: auto;
+    font-size: 2 rem;
+    font-family: 'Arial Narrow Bold';
+    color:rgb(4, 4, 36);
+    text-align: center;
+}
+
+.Name, .Email, .Tel{
+    font-size: 2.5 rem;
+    font-family:'Arial Narrow';
+    font-weight: bolder;
+    margin: 10px;
+    padding: auto;
+
+
+}
+
+
+#name, #Email, #Tel {
+    margin: 10px;
+    padding: 10px;
+    border: 5px;
+    width: 20rem;
+    height: 1rem;
+    border-radius: 5px;
+    font-size: 1 rem;
+    font-family: monospace;
+    font-style: italic;
+    color:rgb(1, 1, 20)
+}
+
+/* .Email {
+    font-size: 20px;
+    font-family:'Arial Narrow';
+    font-weight: bolder;
+    margin: 20px;
+} */
+
+/* #Email {
+    margin: 10px 10px 10px 40px;
+    padding: 5px;
+    border: 0px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+    color:rgb(1, 1, 20)
+/* } */
+
+
+/* .Tel {
+    font-size: 20px;
+    font-family:'Arial Narrow';
+    font-weight: bolder;
+    margin: 20px;
+
+
+}
+
+#Tel {
+    margin: 0px 25px 10px 60px;
+    padding: 5px;
+    border: 0px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+    color:rgb(1, 1, 20)
+} */
+
+.Submit {
+    height: 30px;
+    width: 100px;
+    background-color:rgb(4, 4, 36);
+    margin: 5px 10px 10px 40%;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Tahoma';
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+     
+   
+
+} 
+
+.Submit:hover {
+background:aqua;
+cursor: pointer;
+transition: .04s;
+transform: scale(1);
+
+}
+
+.EL {
+    color: rgb(4, 4, 36);
+    font-size: 1 rem;
+    font-family:'Tahoma';
+    font-weight:bold;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin: -20px 20px 0px 50px;
+}
+
+
+.icons{
+    margin-top: -90px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    padding: 20px;
+      
+}
+
+
+.icons .fab {
+    color:  rgb(4, 4, 36);
+    
+}
+
+.icons, .fab:hover {
+    color: aqua;
+    transition: 0.4s;
+    transform: scale(1.5);
+    cursor:pointer;
+
+} 
+
+
+.Fast-handles, p {
+    font-family: 'Tahoma';
+    font-size: 15px;
+    color: rgb(4, 4, 36);
+    font-weight:bold;
+    text-transform: lowercase;
+    text-align: center;
+    margin: -10px 20px 20px 30px;
+
+}
+.phone, .fa-solid {
+    margin-top:-20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .email, .fa-solid {
+        margin-top:-10px;
+        margin-left: 10px;
+                }
+
+                footer {
+                    width: 100%;
+                    background: rgba(4, 4, 36, 0.8);
+                    color:white;
+                    bottom: 0;
+                    padding:100px 0 30px;
+                    border-radius: 10px;
+                    line-height: 20px; 
+                    font-family: 'Franklin Gothic Medium';
+                    font-weight: bolder;
+                    font-size: 15px;
+                    display: flex;
+                    text-align: justify;
+                
+                }
+                .row{
+                    width:85%;
+                    margin:auto;
+                    display:flex;
+                    flex-wrap:wrap;
+                    align-items: flex-start;
+                    justify-content:space-between;
+                                            }
+                .col {
+                    flex-basis:15%;
+                    padding:10px;
+                                    }
+                .col .intro {
+                    color:white;
+                    font-size: 15px;
+                    text-align: justify;
+                    text-transform:capitalize;
+                }
+                .col .office {
+                    font-size: 20px;
+                    color: aqua;
+                }
+                .col p {
+                    color: white;
+                    font-size: 15px;
+                    text-transform:capitalize;
+                    text-align:justify;
+                    margin: 0px 50px 0px 0px;
+                    width: 200px;
+                    
+
+                }
+              
+                .col .email-id                    {
+                    width: fit-content;
+                    margin: 30px 0;
+                    color: aqua;
+            }
+      .links {
+        list-style: none;
+        margin: 10px 40px 0px 10px
+
+
+                                      }     
+
+      .links a{
+        width: auto;
+        text-decoration: none;
+        margin: 10px 70px 0px 0px;
+        display: block;
+        padding: 0px;
+        color: white;
+        font-size: 15px;
+
+      } 
+
+      .links a:hover{
+        color:aqua;
+              }
+      .Newsletter {
+        width:100%;
+        display: flex;
+        align-content: space-between;
+        justify-content:center;
+        border-bottom: 2px solid white;
+        margin-bottom: 50px;
+        background: white transparent;
+        text-decoration:none;
+      }  
+      
+      .Newsletter input {
+        background: transparent;
+        width: 300px;
+        outline: none;
+        font-style: italic;
+        font-family: monospace;
+        color: white;
+
+      }  
+
+      
+      .Newsletter button {
+        background: aqua;
+        width: 100px;
+        height: 30px;
+        margin-left:-50px;
+        border-radius: 40%;
+        cursor: pointer;
+      }
+      .Newsletter button:hover {
+        background: white;
+        transform: scale(1.5);
+        transition: .4s;
+
+                      }
+        
+     .Newsletter button a {
+                        font-family: 'Franklin Gothic Medium';
+                        color: rgb(4, 4, 36);
+                        text-decoration: none;
+                      }
+    .social-icons  {
+width: 40px;
+height:40px;
+border-radius:40%;
+text-align: center;
+display:flex;
+margin-right: 20px;
+    }
+
+    .social-icons .fab {
+        width: 40px;
+        height:40px;
+        font-size:20px;
+        color:rgb(9, 9, 43);
+        margin-right: 50px;
+        background-color: white;
+        border-radius: 50%;
+        text-align:center;
+        line-height: 40px;
+
+
+
+    }
+    .social-icons .fab:hover {
+        color:aqua;
+        transform: scale(1.5);
+        transition: .4s;
+    }
+    .close-btn,
+    .open-btn {
+        display:none;
+    }
+    @media screen and (max-width: 640px) {
+        ul {
+          display: none;
+        }
+    
+        ul.visible {
+          display: flex;
+          position: absolute;
+          inset: 0;
+          flex-direction: column;
+          padding: 7rem 1rem;
+          background-color: rgb(4, 4, 36);
+            
+        }
+        ul li.visible {
+            font-size: 1rem;
+            color: rgb(4, 4, 36);
+            font-family: 'Franklin Gothic Medium';
+        }
+    
+    
+        .close-btn,
+        .open-btn {
+          display: block;
+        }
+    
+        #logo, #sub-title {
+            font-size: 0.5rem;
+            padding: auto;
+            margin: 10px;
+            display: flex;
+        }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+    }
+
+    .Fast-handles, p {
+        
+            margin: 10px;
+            padding: 10px;
+    
+    }
+    .phone, .fa-solid {
+       margin-top: -10px;
+        }
+    
+       
+
+
+    
+@keyframes aqua-to-blue {
+    0% {background:  rgb(161, 235, 235);
+         transform:translate(0px, 0px);}
+    
+    50% {background:  rgb(20, 128, 128);
+            transform:translate(20px, 20px);}
+    
+    100% {background:  rgba(146, 238, 238, 0.5);
+                transform:translate(40px, 40px);}
+         
+}

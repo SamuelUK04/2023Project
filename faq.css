@@ -1,0 +1,31 @@
+body {
+        background-color: aliceblue;
+}
+#facts {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.question {
+    background-color: transparent;
+    border-radius: 0.5rem;
+    text-align: center;
+    border-bottom: 0.5rem;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+  .answer {
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    display: none;
+  }
+
+  .answer.visible {
+    display: block;
+  }
+
